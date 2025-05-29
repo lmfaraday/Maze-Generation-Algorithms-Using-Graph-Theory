@@ -1,3 +1,5 @@
+A comprehensive project developed as part of the Industrial Engineering graduation project at Boğaziçi University. This repository includes implementations and visualizations of classical and modified maze generation algorithms based on graph theory, alongside advanced solution techniques including classical searches and Deep Q-Network (DQN) reinforcement learning approaches.
+
 ### Generation Algorithms
 In this section, you can access the implementations of the generation algorithms. Both the existing and modified versions are included. The modified versions are marked with a * in the title.
 
