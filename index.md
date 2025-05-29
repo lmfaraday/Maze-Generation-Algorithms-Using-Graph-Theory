@@ -1,77 +1,83 @@
-A comprehensive project developed as part of the Industrial Engineering graduation project at Boğaziçi University. This repository includes implementations and visualizations of classical and modified maze generation algorithms based on graph theory, alongside advanced solution techniques including classical searches and Deep Q-Network (DQN) reinforcement learning approaches.
+---
+title: Maze Generation and Solution with Graph Theory
+---
 
-### Generation Algorithms
-In this section, you can access the implementations of the generation algorithms. Both the existing and modified versions are included. The modified versions are marked with a * in the title.
+📄 **You can access the full project report [here](#).**  
+*(Link will be updated with the final report location.)*
 
-#### Prim-Based Algorithms
+# Maze Generation and Solution with Graph Theory
 
-##### [Randomized Prim](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/RandomizedPrim.py)  
-Based on Prim’s MST method. Grows the maze by randomly selecting frontier edges from the visited region.
+📌 This is a comprehensive project developed as part of the **Industrial Engineering Graduation Project** at **Boğaziçi University**.
 
-##### [Depth First Prim*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/DepthFirstPrim.py)  
-A modified version of Prim's algorithm that prioritizes deeper exploration before branching out.
+The project focuses on generating mazes of varying structural complexity using **graph-based algorithms**, and solving them through **classical** and **reinforcement learning** techniques such as **Deep Q-Network (DQN)**. After generation and solution processes, the mazes are **sampled and analyzed** to understand how structural features affect solvability and agent behavior.
 
-##### [Initialized Prim*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/InitializedPrim.py)  
-A modified version of Prim’s algorithm that starts with a predetermined path and expands from there.
+---     
 
-##### [Loop Prim*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/LoopPrim.py)  
-A variation of Prim’s algorithm that allows loops to form in the maze.
+## 📂 Table of Contents
 
-##### [Stochastic Prim*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/StochasticPrim.py)  
-A variation of Prim’s algorithm that selects the next frontier cell based on the degree of neighboring cells, introducing stochasticity.
+- [Maze Generation Algorithms](#maze-generation-algorithms)  
+  - [Prim-Based](#prim-based)
+  - [Hunt and Kill-Based](#hunt-and-kill-based)
+  - [Other Algorithms](#other-algorithms)
+- [Maze Solution Algorithms](#maze-solution-algorithms)
 
 ---
 
-#### Hunt and Kill-Based Algorithms
+## Maze Generation Algorithms
 
-##### [Hunt and Kill](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/HuntAndKill.py)  
-A random walk-based algorithm that continues until a dead end, then hunts for an unvisited cell adjacent to a visited one to resume the walk.
+Maze generation is the core of this project. All mazes are generated on **grid graphs**, where nodes represent cells and edges represent possible passages. The algorithms vary in their logic, ranging from randomized traversal to minimum spanning tree-based structures.
 
-##### [Loop Hunt and Kill*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/LoopHuntAndKill.py)  
-A variation of the Hunt and Kill algorithm designed to introduce loops into the maze.
+Generation algorithms included in this project, in specific:
+
+### Prim-Based
+
+- 🔗 [Randomized Prim](MazeGenerationAlgorithms/RandomizedPrim.py)  
+- 🔗 [Depth First Prim*](MazeGenerationAlgorithms/DepthFirstPrim.py)  
+- 🔗 [Initialized Prim*](MazeGenerationAlgorithms/InitializedPrim.py)  
+- 🔗 [Loop Prim*](MazeGenerationAlgorithms/LoopPrim.py)  
+- 🔗 [Stochastic Prim*](MazeGenerationAlgorithms/StochasticPrim.py)
+
+### Hunt and Kill-Based
+
+- 🔗 [Hunt and Kill](MazeGenerationAlgorithms/HuntAndKill.py)  
+- 🔗 [Loop Hunt and Kill*](MazeGenerationAlgorithms/LoopHuntAndKill.py)  
+
+### Other Algorithms
+
+- 🔗 [Aldous-Broder](MazeGenerationAlgorithms/AldousBroder.py)  
+- 🔗 [DFS](MazeGenerationAlgorithms/DFS.py)  
+- 🔗 [Recursive Backtracker](MazeGenerationAlgorithms/RecursiveBacktracker.py)  
+- 🔗 [Randomized Kruskal](MazeGenerationAlgorithms/RandomizedKruskal.py)  
+- 🔗 [Sidewinder](MazeGenerationAlgorithms/Sidewinder.py)  
+- 🔗 [Wilson](MazeGenerationAlgorithms/Wilson.py)  
 
 ---
 
-#### Other Algorithms
+## Maze Solution Algorithms
 
-##### [Aldous-Broder](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/AldousBroder.py)  
-A simple random walk algorithm that starts at a random cell and moves to a random neighbor until all cells are visited.
+Once mazes are generated, different algorithms are applied to solve them and analyze behavior under structural differences. This includes classical search techniques and reinforcement learning:
 
-##### [DFS](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/DFS.py)  
-A depth-first search algorithm that starts at a random cell and recursively visits random neighbors until all cells are visited.
+- 🔗 [A\*](MazeSolutionAlgorithms/AStar.py)  
+- 🔗 [Breadth First Search (BFS)](MazeSolutionAlgorithms/BreadthFirstSearch.py)  
+- 🔗 [Depth First Search (DFS)](MazeSolutionAlgorithms/DepthFirstSearch.py)  
+- 🔗 [Hybrid Search*](MazeSolutionAlgorithms/HybridSearch.py)  
+- 🔗 [Random Walk](MazeSolutionAlgorithms/RandomWalk.py)  
+- 🔗 [Hand on Wall](MazeSolutionAlgorithms/HandOnWall.py)  
+- 🔗 [Deep Q-Learning (DQN)*](MazeSolutionAlgorithms/DeepQNetwork.ipynb)  
 
-##### [Recursive Backtracker](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/RecursiveBacktracker.py)  
-Uses recursive backtracking to explore from a random starting cell until all cells are visited.
+---
 
-##### [Randomized Kruskal](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/RandomizedKruskal.py)  
-Based on Kruskal’s MST method. Randomly removes walls between disjoint sets until all cells are connected.
+## 📊 Data & Evaluation
 
-##### [Sidewinder](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/Sidewinder.py)  
-Generates the maze row by row, carving passages eastward with occasional connections northward.
+All generated mazes are **sampled** and **evaluated** based on their:
+- Structural complexity
+- Solvability under different algorithms
+- Agent performance and behavior (classical vs. DQN)
 
-##### [Wilson](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/Wilson.py)  
-Generates a perfect maze using loop-erased random walks starting from randomly chosen unvisited cells.
+These analyses helped understand how maze structure affects exploration patterns and solution difficulty.
 
-### Solution Algorithms
-In this section, you can access the implementations of the generation algorithms. Both the existing and modified versions are included. The modified versions are marked with a * in the title.
+---
 
-##### [A*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/AStar.py)  
-Uses a heuristic to efficiently find the shortest path from the start to the goal, combining features of uniform-cost search and greedy search.
+## 🔗 Access the Full Repository
 
-##### [Breadth First Search](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/BreadthFirstSearch.py)
-Explores all nodes at the current depth level before moving to the next, guaranteeing the shortest path in an unweighted maze.
-
-##### [Depth First Search](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/DepthFirstSearch.py)
-Explores as far as possible along each branch before backtracking. Not guaranteed to find the shortest path.
-
-##### [Hybrid Search*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/HybridSearch.py)
-A custom combination of multiple search strategies designed to balance exploration and optimality.
-
-##### [Random Walk](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/RandomWalk.py)
-Chooses the next move randomly without memory or goal orientation. 
-
-##### [Hand on Wall](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/HandOnWall.py)
-Follows the left or right wall consistently. Works only in simply-connected mazes (no loops inside).
-
-##### [Deep Q-Learning*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/DeepQNetwork.ipynb)
-A reinforcement learning approach that uses a neural network to approximate the Q-value function, allowing the agent to learn optimal policies for maze navigation.
+You can access the full source code, visualizations, and result notebooks from the [GitHub Repository](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory).
