@@ -3,13 +3,16 @@
 ## Table of Contents
 - [Generation Algorithms](#generation-algorithms)
   - [Prim-Based Algorithms](#prim-based-algorithms)
-  - [Hunt and Kill-Based Algorithms](#hunt-and-kill-based-algorithms) 
+  - [Hunt and Kill-Based Algorithms](#hunt-and-kill-based-algorithms)
   - [Other Generation Algorithms](#other-generation-algorithms)
 - [Solution Algorithms](#solution-algorithms)
+
+---
 
 ## Generation Algorithms
 
 ### Prim-Based Algorithms
+
 #### Depth First Prim
 <video width="640" height="480" controls>
   <source src="Outputs 25x25/Generation of Depth First Prim's Algorithm25_25.mp4" type="video/mp4">
@@ -35,7 +38,10 @@
   <source src="Outputs 25x25/Generation of Stochastic Prim's Algorithm25_25.mp4" type="video/mp4">
 </video>
 
+---
+
 ### Hunt and Kill-Based Algorithms
+
 #### Hunt and Kill
 <video width="640" height="480" controls>
   <source src="Outputs 25x25/Generation of Hunt and Kill Algorithm25_25.mp4" type="video/mp4">
@@ -46,7 +52,10 @@
   <source src="Outputs 25x25/Generation of Loop Hunt and Kill Algorithm25_25.mp4" type="video/mp4">
 </video>
 
+---
+
 ### Other Generation Algorithms
+
 #### Aldous-Broder
 <video width="640" height="480" controls>
   <source src="Outputs 25x25/Generation of Aldous Broder Algorithm25_25.mp4" type="video/mp4">
@@ -77,7 +86,10 @@
   <source src="Outputs 25x25/Generation of Wilson's Algorithm25_25.mp4" type="video/mp4">
 </video>
 
+---
+
 ## Solution Algorithms
+
 #### A* Search
 <video width="640" height="480" controls>
   <source src="Outputs 25x25/AStar Solution of Recursive Backtracker Algorithm_25_25.mp4" type="video/mp4">
