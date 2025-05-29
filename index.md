@@ -73,5 +73,5 @@ Chooses the next move randomly without memory or goal orientation. Often ineffic
 ### [Hand on Wall](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/HandOnWall.py)
 Follows the left or right wall consistently. Works only in simply-connected mazes (no loops inside).
 
-### [Deep Q-Learning*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/DeepQNetwork.py)
+### [Deep Q-Learning*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/DeepQNetwork.ipynb)
 A reinforcement learning approach that uses a neural network to approximate the Q-value function, allowing the agent to learn optimal policies for maze navigation.
