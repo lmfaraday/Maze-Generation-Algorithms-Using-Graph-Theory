@@ -1,7 +1,3 @@
----
-title: Maze Generation Algorithms Using Graph Theory  
----
-
 📄 **Full Project Report:**  
 Access the complete project report **[here](#)**.  
 *(Note: The link will be updated once the final report is available.)*
