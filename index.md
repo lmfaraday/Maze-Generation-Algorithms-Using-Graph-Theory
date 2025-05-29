@@ -77,6 +77,14 @@ Once mazes are generated, different algorithms are applied to solve them and ana
 
 ---
 
+## Maze Visualizations and Animations
+
+To better understand the behavior of different generation and solution algorithms, we have included a collection of sample visualizations and animations.
+
+Explore these examples in the [MazeAnimations/Outputs](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/tree/main/MazeAnimations/Outputs) folder in the repository. They showcase how the mazes evolve during generation and how various solvers navigate through them.
+
+---
+
 ## 📊 Data & Evaluation
 
 All generated mazes are **sampled** and **evaluated** based on their:  
