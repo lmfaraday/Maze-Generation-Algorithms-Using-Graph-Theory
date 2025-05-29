@@ -2,8 +2,18 @@
 title: Maze Generation and Solution with Graph Theory
 ---
 
-📄 **You can access the full project report [here](#).**  
-*(Link will be updated with the final report location.)*
+📄 **Full Project Report:**  
+Access the complete project report **[here](#)**.  
+*(Note: The link will be updated once the final report is available.)*
+
+---
+
+💻 **Explore the Code & Results:**  
+All source code and detailed visualizations are available on the  
+[GitHub Repository](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory).  
+Feel free to dive in and explore!
+
+---
 
 # Maze Generation and Solution with Graph Theory
 
@@ -75,9 +85,3 @@ All generated mazes are **sampled** and **evaluated** based on their:
 - Agent performance and behavior (classical vs. DQN)  
 
 These analyses helped understand how maze structure affects exploration patterns and solution difficulty.
-
----
-
-## 🔗 Access the Full Repository
-
-You can access the full source code, visualizations, and result notebooks from the [GitHub Repository](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory).
