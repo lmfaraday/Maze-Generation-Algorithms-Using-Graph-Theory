@@ -80,17 +80,17 @@
 ## Solution Algorithms
 #### A* Search
 <video width="640" height="480" controls>
-  <source src="MazeAnimations/Outputs/AStar Solution of Recursive Backtracker Algorithm_10_10.mp4" type="video/mp4">
+  <source src="Outputs/AStar Solution of Recursive Backtracker Algorithm_10_10.mp4" type="video/mp4">
 </video>
 
 #### Breadth First Search (BFS)
 <video width="640" height="480" controls>
-  <source src="MazeAnimations/Outputs/BFS Solution of Recursive Backtracker Algorithm_10_10.mp4" type="video/mp4">
+  <source src="Outputs/BFS Solution of Recursive Backtracker Algorithm_10_10.mp4" type="video/mp4">
 </video>
 
 #### Depth First Search (DFS)
 <video width="640" height="480" controls>
-  <source src="MazeAnimations/Outputs/DFS Solution of Recursive Backtracker Algorithm_10_10.mp4" type="video/mp4">
+  <source src="Outputs/DFS Solution of Recursive Backtracker Algorithm_10_10.mp4" type="video/mp4">
 </video>
 
 #### Hand on Wall
