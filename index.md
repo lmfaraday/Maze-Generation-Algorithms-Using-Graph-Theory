@@ -52,3 +52,26 @@ Generates the maze row by row, carving passages eastward with occasional connect
 ### [Wilson](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/Wilson.py)  
 Generates a perfect maze using loop-erased random walks starting from randomly chosen unvisited cells.
 
+## Solution Algorithms
+In this section, you can access the implementations of the generation algorithms. Both the existing and modified versions are included. The modified versions are marked with a * in the title.
+
+### [A*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/AStar.py)  
+Uses a heuristic to efficiently find the shortest path from the start to the goal, combining features of uniform-cost search and greedy search.
+
+### [Breadth First Search](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/BreadthFirstSearch.py)
+Explores all nodes at the current depth level before moving to the next, guaranteeing the shortest path in an unweighted maze.
+
+### [Depth First Search](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/DepthFirstSearch.py)
+Explores as far as possible along each branch before backtracking. Not guaranteed to find the shortest path.
+
+### [Hybrid Search*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/HybridSearch.py)
+A custom combination of multiple search strategies designed to balance exploration and optimality.
+
+### [Random Walk](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/RandomWalk.py)
+Chooses the next move randomly without memory or goal orientation. Often inefficient, but simple.
+
+### [Hand on Wall](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/HandOnWall.py)
+Follows the left or right wall consistently. Works only in simply-connected mazes (no loops inside).
+
+### [Deep Q-Learning*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/DeepQNetwork.py)
+A reinforcement learning approach that uses a neural network to approximate the Q-value function, allowing the agent to learn optimal policies for maze navigation.
