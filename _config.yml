@@ -1,14 +1,12 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-modernist	
 
 title: Maze Generation Algorithms Using Graph Theory  
 tagline: Graph-based Maze Generation and Solution Methods  
 
 description: >  
-  A comprehensive project developed as part of the Industrial Engineering graduation thesis at Boğaziçi University.  
+  A comprehensive project developed as part of the Industrial Engineering graduation project at Boğaziçi University.  
   This repository includes implementations and visualizations of classical and modified maze generation algorithms based on graph theory,  
   alongside advanced solution techniques including classical searches and Deep Q-Network (DQN) reinforcement learning approaches.
-
-email: bkubilaygungz@gmail.com
 
 repository: https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory
 
