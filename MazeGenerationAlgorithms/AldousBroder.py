@@ -7,7 +7,7 @@ from IPython.display import HTML
 
 class AldousBroderMaze:
     def __init__(self, width, height):
-        self.maze_name = "Aldous Broader Algorithm"
+        self.maze_name = "Aldous Broder Algorithm"
         self.width = width
         self.height = height
         self.graph = nx.grid_2d_graph(width, height)

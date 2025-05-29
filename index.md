@@ -34,7 +34,7 @@ A variation of the Hunt and Kill algorithm designed to introduce loops into the 
 
 ### Other Algorithms
 
-### [Aldous-Broder](MazeGenerationAlgorithms/AldousBroader.py)  
+### [Aldous-Broder](MazeGenerationAlgorithms/AldousBroder.py)  
 A simple random walk algorithm that starts at a random cell and moves to a random neighbor until all cells are visited.
 
 ### [DFS](MazeGenerationAlgorithms/DFS.py)  
