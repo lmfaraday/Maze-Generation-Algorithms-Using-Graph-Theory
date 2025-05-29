@@ -35,6 +35,8 @@ Maze generation is the core of this project. All mazes are generated on **grid g
 
 Generation algorithms included in this project, in specific:
 
+> **Note:** Algorithms marked with a * have been modified or developed by us.
+
 ### Prim-Based
 
 - 🔗 [Randomized Prim](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/RandomizedPrim.py)  
@@ -63,7 +65,9 @@ Generation algorithms included in this project, in specific:
 
 Once mazes are generated, different algorithms are applied to solve them and analyze behavior under structural differences. This includes classical search techniques and reinforcement learning:
 
-- 🔗 [A\*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/AStar.py)  
+> **Note:** Algorithms marked with a * have been modified or developed by us.
+
+- 🔗 [A-Star](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/AStar.py)  
 - 🔗 [Breadth First Search (BFS)](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/BreadthFirstSearch.py)  
 - 🔗 [Depth First Search (DFS)](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/DepthFirstSearch.py)  
 - 🔗 [Hybrid Search*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/HybridSearch.py)  
