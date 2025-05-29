@@ -11,8 +11,6 @@ Feel free to dive in and explore!
 
 ---
 
-# Maze Generation and Solution with Graph Theory
-
 📌 This is a comprehensive project developed as part of the **Industrial Engineering Graduation Project** at **Boğaziçi University**.
 
 The project focuses on generating mazes of varying structural complexity using **graph-based algorithms**, and solving them through **classical** and **reinforcement learning** techniques in specific **Deep Q-Network (DQN)**. After generation and solution processes, the mazes are **sampled and analyzed** to understand how structural features affect solvability and agent behavior.
