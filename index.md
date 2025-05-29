@@ -5,13 +5,13 @@ In this section, you can access the implementations of the generation algorithms
 
 ### Prim-Based Algorithms
 
-### [Randomized Prim*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/RandomizedPrim.py)  
+### [Randomized Prim](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/RandomizedPrim.py)  
 Based on Prim’s MST method. Grows the maze by randomly selecting frontier edges from the visited region.
 
 ### [Depth First Prim*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/DepthFirstPrim.py)  
 A modified version of Prim's algorithm that prioritizes deeper exploration before branching out.
 
-### [Initialize Prim*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/InitializedPrim.py)  
+### [Initialized Prim*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/InitializedPrim.py)  
 A modified version of Prim’s algorithm that starts with a predetermined path and expands from there.
 
 ### [Loop Prim*](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/LoopPrim.py)  
@@ -68,7 +68,7 @@ Explores as far as possible along each branch before backtracking. Not guarantee
 A custom combination of multiple search strategies designed to balance exploration and optimality.
 
 ### [Random Walk](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/RandomWalk.py)
-Chooses the next move randomly without memory or goal orientation. Often inefficient, but simple.
+Chooses the next move randomly without memory or goal orientation. 
 
 ### [Hand on Wall](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeSolutionAlgorithms/HandOnWall.py)
 Follows the left or right wall consistently. Works only in simply-connected mazes (no loops inside).
