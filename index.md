@@ -1,5 +1,3 @@
-# Maze Generation Algorithms Using Graph Theory
-
 ## Generation Algorithms
 In this section, you can access the implementations of the generation algorithms. Both the existing and modified versions are included. The modified versions are marked with a * in the title.
 
