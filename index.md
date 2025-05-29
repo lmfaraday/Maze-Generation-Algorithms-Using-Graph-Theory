@@ -1,5 +1,5 @@
 ---
-title: Maze Generation and Solution with Graph Theory
+title: Maze Generation Algorithms Using Graph Theory  
 ---
 
 📄 **Full Project Report:**  
