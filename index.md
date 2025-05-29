@@ -51,7 +51,7 @@ Generation algorithms included in this project, in specific:
 ### Other Algorithms
 
 - 🔗 [Aldous-Broder](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/AldousBroder.py)  
-- 🔗 [DFS](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/DFS.py)  
+- 🔗 [Randomized Depth First Search (DFS)](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/DFS.py)  
 - 🔗 [Recursive Backtracker](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/RecursiveBacktracker.py)  
 - 🔗 [Randomized Kruskal](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/RandomizedKruskal.py)  
 - 🔗 [Sidewinder](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeGenerationAlgorithms/Sidewinder.py)  
