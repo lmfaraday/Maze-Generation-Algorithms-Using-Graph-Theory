@@ -79,7 +79,7 @@ Once mazes are generated, different algorithms are applied to solve them and ana
 
 To better understand the behavior of different generation and solution algorithms, we have included a collection of sample visualizations and animations.
 
-You can download large (50x50) MP4 videos from the [Outputs folder](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/tree/main/MazeAnimations/Outputs). Smaller 10x10 examples can be viewed interactively in the [animation.md](MazeAnimations/animation.md) file.
+You can download large (50x50) MP4 videos from the [Outputs folder](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/tree/main/MazeAnimations/Outputs). Smaller 25x25 examples can be viewed interactively in the [animation.md](MazeAnimations/animation.md) file.
 
 These examples demonstrate how mazes are generated and how solvers navigate through them.
 
