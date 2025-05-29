@@ -95,3 +95,12 @@ All generated mazes are **sampled** and **evaluated** based on their:
 - Agent performance and behavior (classical vs. DQN)  
 
 These analyses helped understand how maze structure affects exploration patterns and solution difficulty.
+
+### Sample Maze Animation
+
+<video width="640" height="480" controls>
+  <source src="MazeAnimations/Outputs/Generation of Aldous Broder Algorithm50_50.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
