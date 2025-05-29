@@ -1,3 +1,3 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 title: Maze Generation Algorithms Using Graph Theory
 description: This journal was created for the graduation project of the Industrial Engineering Department at Boğaziçi University. It focuses on the implementation and visualization of both existing and modified graph generation algorithms. Additionally, it includes the development and visualization of solution algorithms, including classical methods and Deep Q-Network (DQN)-based approaches.
