@@ -31,9 +31,9 @@ The project focuses on generating mazes of varying structural complexity using *
 
 Maze generation is the core of this project. All mazes are generated on **grid graphs**, where nodes represent cells and edges represent possible passages. The algorithms vary in their logic, ranging from randomized traversal to minimum spanning tree-based structures.
 
-Generation algorithms included in this project, in specific:
-
 > **Note:** Algorithms marked with a * have been modified or developed by us.
+
+Generation algorithms included in this project, in specific:
 
 ### Prim-Based
 
