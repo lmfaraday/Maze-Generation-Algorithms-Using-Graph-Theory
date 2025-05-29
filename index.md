@@ -4,7 +4,7 @@ Access the complete project report **[here](#)**.
 
 ---
 
-💻 **Explore the Code & Results:**  
+💻 **Explore the Code:**  
 All source code and detailed visualizations are available on the  
 [GitHub Repository](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory).  
 Feel free to dive in and explore!
