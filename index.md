@@ -79,8 +79,7 @@ Once mazes are generated, different algorithms are applied to solve them and ana
 
 To better understand the behavior of different generation and solution algorithms, we have included a collection of sample visualizations and animations.
 
-You can download large (50x50) MP4 videos from the [Outputs folder](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/tree/main/MazeAnimations/Outputs). Smaller 10x10 examples can be viewed interactively here:  
-[10x10 Examples Notebook](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/MazeAnimations/output.ipynb)
+You can download large (50x50) MP4 videos from the [Outputs folder](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/tree/main/MazeAnimations/Outputs). Smaller 10x10 examples can be viewed interactively in the [animation.md](MazeAnimations/animation.md) file.
 
 These examples demonstrate how mazes are generated and how solvers navigate through them.
 
@@ -95,12 +94,3 @@ All generated mazes are **sampled** and **evaluated** based on their:
 - Agent performance and behavior (classical vs. DQN)  
 
 These analyses helped understand how maze structure affects exploration patterns and solution difficulty.
-
-### Sample Maze Animation
-
-<video width="640" height="480" controls>
-  <source src="MazeAnimations/Outputs/Generation of Aldous Broder Algorithm50_50.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
----
