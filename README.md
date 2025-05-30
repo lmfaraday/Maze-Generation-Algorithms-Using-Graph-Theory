@@ -1,9 +1,5 @@
 # Maze Generation Algorithms Using Graph Theory
 
-📄 **Full Project Report:**  
-Access the complete project report **[here](#)**.
-
----
 
 📌 This project was developed as part of the **Industrial Engineering Graduation Project** at **Boğaziçi University**.
 
