@@ -7,15 +7,6 @@ It focuses on generating mazes of varying structural complexity using **graph-ba
 
 ---
 
-## Table of Contents
-
-- [Maze Generation Algorithms](#maze-generation-algorithms)  
-- [Maze Solution Algorithms](#maze-solution-algorithms)  
-- [Visualizations and Animations](#visualizations-and-animations)  
-- [Data & Evaluation](#data--evaluation)
-
----
-
 ## Maze Generation Algorithms
 
 Mazes are generated on grid graphs where nodes represent cells and edges represent passages. Algorithms range from randomized traversals to minimum spanning tree methods.
