@@ -23,10 +23,12 @@ The project focuses on generating mazes of varying structural complexity using *
   - [Hunt and Kill-Based](#hunt-and-kill-based)  
   - [Other Algorithms](#other-algorithms)  
 - [Maze Solution Algorithms](#maze-solution-algorithms)  
+- [Maze Visualizations and Animations](#-maze-visualizations-and-animations)
+- [Data & Evaluation](#-data--evaluation)
 
 ---
 
-## Maze Generation Algorithms
+## 🧩 Maze Generation Algorithms
 
 Maze generation is the core of this project. All mazes are generated on **grid graphs**, where nodes represent cells and edges represent possible passages. The algorithms vary in their logic, ranging from randomized traversal to minimum spanning tree-based structures.
 
@@ -60,7 +62,7 @@ A diverse set of maze generation algorithms, each with unique characteristics in
 
 ---
 
-## Maze Solution Algorithms
+## 🎯 Maze Solution Algorithms
 
 Once mazes are generated, different algorithms are applied to solve them and analyze behavior under structural differences. This includes classical search techniques and reinforcement learning:
 
@@ -76,7 +78,7 @@ Once mazes are generated, different algorithms are applied to solve them and ana
 
 ---
 
-## Maze Visualizations and Animations
+## 🎨 Maze Visualizations and Animations
 
 To better understand the behavior of different generation and solution algorithms, we have included a collection of sample visualizations and animations.
 
