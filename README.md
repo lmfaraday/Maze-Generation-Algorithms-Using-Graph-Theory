@@ -15,7 +15,7 @@ Mazes are generated on **graphs** using a range of algorithms—from spanning tr
 - **Hunt and Kill\***: With and without loops  
 - **Others**: Aldous-Broder, DFS, Recursive Backtracker, Kruskal, Sidewinder, Wilson  
 
-> Algorithms marked with \* are custom modifications or original contributions.
+> Algorithms marked with \* are custom modifications.
 
 ---
 
