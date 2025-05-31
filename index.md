@@ -91,21 +91,30 @@ These examples demonstrate how mazes are generated and how solvers navigate thro
 
 ## 📊 Data & Evaluation
 
-All generated mazes and their corresponding solutions are **sampled** and **evaluated** using custom analysis notebooks. These evaluations help understand how **structural properties** and **algorithmic strategies** influence solvability and agent behavior.
+All generated mazes and corresponding solutions are **sampled** using custom analysis notebooks. These notebooks collect data to help understand how **structural properties** and **algorithmic strategies** affect solvability and agent behavior. Full evaluations are conducted using these sampled datasets.
 
-### 📁 Evaluation Notebooks
+### 📁 Sampling Notebooks
 
 - 📘 [MazeMetrics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/MazeMetrics.ipynb):  
-  Computes general structural metrics (e.g., path length, branching factor) across all maze types.
+  Samples general structural metrics (e.g., path length, branching factor) across various maze types.
 
 - 📘 [LoopMazeMetrics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/LoopMazeMetrics.ipynb):  
-  Focuses specifically on mazes with **controlled loops**, analyzing their impact on complexity.
+  Samples metrics for mazes with **controlled loops**, capturing how added cycles affect structural complexity.
 
 - 📘 [SolutionStatistics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/SolutionStatistics.ipynb):  
-  Evaluates performance of classical solvers (e.g., A*, BFS, DFS) on loop-free different maze structures.
+  Samples classical solver runs (e.g., A*, BFS, DFS) on loop-free maze structures to collect solution-related data.
 
 - 📘 [LoopSolutionStatistics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/LoopSolutionStatistics.ipynb):  
-  Evaluates performance of classical solvers (e.g., A*, BFS, DFS) on mazes with different loop structures.
+  Samples solver behavior on mazes with loops to explore their influence on navigation patterns.
 
 - 🤖 [DQNStatistics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/DQNStatistics.ipynb):  
-  Analyzes reinforcement learning performance using **Deep Q-Networks (DQN)** — reward progression, convergence patterns, and exploration efficiency.
+  Samples learning data from **Deep Q-Network (DQN)** agents, including reward trends and policy convergence.
+
+### 📈 Results
+
+- Mazes with **controlled loops** are generally **easier to solve**, as loops provide alternative paths and reduce the likelihood of getting stuck.
+- The **most challenging mazes** are those with **many short dead-ends**, which increase the chance of missteps and require more backtracking.
+- Classical solvers (e.g., A*, BFS) perform well in looped mazes but struggle with heavily branched dead-end structures due to frequent path reversals.
+- The custom **Hybrid Search\*** algorithm shows robustness across both maze types, effectively balancing exploration and depth prioritization.
+- **DQN agents** perform **fastest when the solution path is long and direct**, as this encourages consistent reward signals and helps the agent learn efficient forward navigation.
+
