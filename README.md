@@ -11,11 +11,9 @@ This project explores **maze generation** using graph algorithms and their **sol
 Mazes are generated on **graphs** using a range of algorithms—from spanning tree methods to random walks.
 
 ### Included Algorithms:
-- **Prim Variants\***: Randomized, Depth-First, Initialized, Loop, Stochastic  
-- **Hunt and Kill\***: With and without loops  
+- **Prim Variants**: Randomized, Depth-First, Initialized, Loop, Stochastic  
+- **Hunt and Kill**: With and without loops  
 - **Others**: Aldous-Broder, DFS, Recursive Backtracker, Kruskal, Sidewinder, Wilson  
-
-> Algorithms marked with \* are custom modifications.
 
 ---
 
