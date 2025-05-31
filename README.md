@@ -8,7 +8,7 @@ This project explores **maze generation** using graph algorithms and their **sol
 
 ## Maze Generation Algorithms
 
-Mazes are generated on grid graphs using a range of algorithms—from spanning tree methods to random walks.
+Mazes are generated on **graphs** using a range of algorithms—from spanning tree methods to random walks.
 
 ### Included Algorithms:
 - **Prim Variants\***: Randomized, Depth-First, Initialized, Loop, Stochastic  
