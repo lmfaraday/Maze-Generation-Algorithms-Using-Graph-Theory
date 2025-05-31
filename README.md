@@ -6,7 +6,7 @@ This project explores **maze generation** using graph algorithms and their **sol
 
 ---
 
-## Maze Generation Algorithms
+## 🧩 Maze Generation Algorithms
 
 Mazes are generated on **graphs** using a range of algorithms—from spanning tree methods to random walks.
 
@@ -17,7 +17,7 @@ Mazes are generated on **graphs** using a range of algorithms—from spanning tr
 
 ---
 
-## Maze Solution Algorithms
+## 🎯 Maze Solution Algorithms
 
 We applied both classical and learning-based methods:
 
@@ -27,7 +27,7 @@ We applied both classical and learning-based methods:
 
 ---
 
-## Visualizations and Animations
+## 🎨 Visualizations and Animations
 
 We visualized both the generation and solution phases using animations.  
 - 📁 Large videos: [`Outputs/`](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/tree/main/MazeAnimations/Outputs)  
@@ -35,11 +35,11 @@ We visualized both the generation and solution phases using animations.
 
 ---
 
-## Data & Evaluation
+## 📊 Data & Evaluation
 
 All mazes and solutions are **sampled** for analysis:
 
-### Sampling Notebooks
+### 📁 Sampling Notebooks
 - 📘 `MazeMetrics.ipynb`: Structural metrics (path length, branching, etc.)  
 - 📘 `LoopMazeMetrics.ipynb`: Loop influence on complexity  
 - 📘 `SolutionStatistics.ipynb`: Classical solver performance  
@@ -48,7 +48,7 @@ All mazes and solutions are **sampled** for analysis:
 
 ---
 
-### Key Results
+### 📈 Key Results
 
 - 🌀 Mazes **with loops** are generally **easier**, offering alternative paths.  
 - 🧱 Mazes **with many short dead-ends** are **harder**, increasing backtracking.  

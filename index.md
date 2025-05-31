@@ -112,7 +112,7 @@ All generated mazes and corresponding solutions are **sampled** using custom ana
 - 🤖 [DQNStatistics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/DQNStatistics.ipynb):  
   Samples learning data from **Deep Q-Network (DQN)** agents, including reward trends and policy convergence.
 
-### 📈 Results
+### 📈 Key Results
 
 - Mazes with **controlled loops** are generally **easier to solve**, as loops provide alternative paths and reduce the likelihood of getting stuck.
 - The **most challenging mazes** are those with **many short dead-ends**, which increase the chance of missteps and require more backtracking.
