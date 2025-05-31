@@ -22,8 +22,8 @@ Mazes are generated on **graphs** using a range of algorithms—from spanning tr
 We applied both classical and learning-based methods:
 
 - **Classical**: A*, BFS, DFS, Random Walk, Hand on Wall  
-- **Custom**: Hybrid Search\* (BFS + DFS mix)  
-- **RL-Based**: Deep Q-Network (DQN)\*
+- **Custom**: Hybrid Search (BFS + DFS mix)  
+- **RL-Based**: Deep Q-Network (DQN)
 
 ---
 
