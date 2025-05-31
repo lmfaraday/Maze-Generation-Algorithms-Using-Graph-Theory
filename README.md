@@ -1,47 +1,61 @@
 # Maze Generation Algorithms Using Graph Theory
 
+📌 Developed as part of the **Industrial Engineering Graduation Project** at **Boğaziçi University**.
 
-📌 This project was developed as part of the **Industrial Engineering Graduation Project** at **Boğaziçi University**.
-
-It focuses on generating mazes of varying structural complexity using **graph-based algorithms**, and solving them via **classical** and **reinforcement learning** techniques, specifically with **Deep Q-Networks (DQN)**. After generation and solution, mazes are **sampled and analyzed** to understand how structural features affect solvability and agent behavior.
+This project explores **maze generation** using graph algorithms and their **solution** through classical and reinforcement learning methods, particularly **Deep Q-Networks (DQN)**. Generated mazes are structurally sampled to evaluate how features like loops and dead-ends affect solvability and agent behavior.
 
 ---
 
 ## Maze Generation Algorithms
 
-Mazes are generated on grid graphs where nodes represent cells and edges represent passages. Algorithms range from randomized traversals to minimum spanning tree methods.
+Mazes are generated on grid graphs using a range of algorithms—from spanning tree methods to random walks.
 
-### Examples Include:  
-- Prim-Based variations (including custom modifications)*  
-- Hunt and Kill and Loop Hunt and Kill*  
-- Aldous-Broder, Recursive Backtracker, Randomized Kruskal, Sidewinder, Wilson
+### Included Algorithms:
+- **Prim Variants\***: Randomized, Depth-First, Initialized, Loop, Stochastic  
+- **Hunt and Kill\***: With and without loops  
+- **Others**: Aldous-Broder, DFS, Recursive Backtracker, Kruskal, Sidewinder, Wilson  
 
-(* indicates modified or developed by us)
+> Algorithms marked with \* are custom modifications or original contributions.
 
 ---
 
 ## Maze Solution Algorithms
 
-Solvers include classical search and reinforcement learning:
+We applied both classical and learning-based methods:
 
-- A-Star, BFS, DFS  
-- Hybrid Search* (custom BFS + DFS)  
-- Random Walk, Hand on Wall  
-- Deep Q-Learning (DQN)*
+- **Classical**: A*, BFS, DFS, Random Walk, Hand on Wall  
+- **Custom**: Hybrid Search\* (BFS + DFS mix)  
+- **RL-Based**: Deep Q-Network (DQN)\*
 
 ---
 
 ## Visualizations and Animations
 
-Sample visualizations and videos illustrate maze generation and solution processes.  
-Large videos available in the Outputs folder, smaller interactive examples in the animation.md file.
+We visualized both the generation and solution phases using animations.  
+- 📁 Large videos: [`Outputs/`](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/tree/main/MazeAnimations/Outputs)  
+- 🧭 Interactive examples: [`animation.md`](MazeAnimations/animation.md)
 
 ---
 
 ## Data & Evaluation
 
-Generated mazes are sampled and evaluated by:  
-- Structural complexity  
-- Solvability under various algorithms  
-- Agent performance and behavior (classical vs. DQN)
+All mazes and solutions are **sampled** for analysis:
 
+### Sampling Notebooks
+- 📘 `MazeMetrics.ipynb`: Structural metrics (path length, branching, etc.)  
+- 📘 `LoopMazeMetrics.ipynb`: Loop influence on complexity  
+- 📘 `SolutionStatistics.ipynb`: Classical solver performance  
+- 📘 `LoopSolutionStatistics.ipynb`: Solver behavior with loops  
+- 🤖 `DQNStatistics.ipynb`: Learning curves, reward trends
+
+---
+
+### Key Results
+
+- 🌀 Mazes **with loops** are generally **easier**, offering alternative paths.  
+- 🧱 Mazes **with many short dead-ends** are **harder**, increasing backtracking.  
+- 🔍 Classical solvers struggle in dense dead-end mazes.  
+- 🧭 **Hybrid Search\*** adapts well across maze types.  
+- ⚡ **DQN** learns **faster in longer, direct mazes**, benefiting from steady rewards.
+
+---

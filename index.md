@@ -18,13 +18,15 @@ The project focuses on generating mazes of varying structural complexity using *
 
 ## 📂 Table of Contents
 
-- [Maze Generation Algorithms](#maze-generation-algorithms)  
+- [Maze Generation Algorithms](#-maze-generation-algorithms)  
   - [Prim-Based](#prim-based)  
   - [Hunt and Kill-Based](#hunt-and-kill-based)  
   - [Other Algorithms](#other-algorithms)  
-- [Maze Solution Algorithms](#maze-solution-algorithms)  
-- [Maze Visualizations and Animations](#-maze-visualizations-and-animations)
-- [Data & Evaluation](#-data--evaluation)
+- [Maze Solution Algorithms](#-maze-solution-algorithms)  
+- [Maze Visualizations and Animations](#-maze-visualizations-and-animations)  
+- [Data & Evaluation](#-data--evaluation)  
+  - [Sampling Notebooks](#-sampling-notebooks)  
+  - [Results](#-results)
 
 ---
 
@@ -114,7 +116,7 @@ All generated mazes and corresponding solutions are **sampled** using custom ana
 
 - Mazes with **controlled loops** are generally **easier to solve**, as loops provide alternative paths and reduce the likelihood of getting stuck.
 - The **most challenging mazes** are those with **many short dead-ends**, which increase the chance of missteps and require more backtracking.
-- Classical solvers (e.g., A*, BFS) perform well in looped mazes but struggle with heavily branched dead-end structures due to frequent path reversals.
+- Classical solvers (e.g., A*, DFS) perform well in looped mazes but struggle with heavily branched dead-end structures due to frequent path reversals.
 - The custom **Hybrid Search\*** algorithm shows robustness across both maze types, effectively balancing exploration and depth prioritization.
 - **DQN agents** perform **fastest when the solution path is long and direct**, as this encourages consistent reward signals and helps the agent learn efficient forward navigation.
 
