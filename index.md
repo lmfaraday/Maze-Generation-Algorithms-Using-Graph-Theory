@@ -91,9 +91,21 @@ These examples demonstrate how mazes are generated and how solvers navigate thro
 
 ## 📊 Data & Evaluation
 
-All generated mazes are **sampled** and **evaluated** based on their:  
-- Structural complexity  
-- Solvability under different algorithms  
-- Agent performance and behavior (classical vs. DQN)  
+All generated mazes and their corresponding solutions are **sampled** and **evaluated** using custom analysis notebooks. These evaluations help understand how **structural properties** and **algorithmic strategies** influence solvability and agent behavior.
 
-These analyses helped understand how maze structure affects exploration patterns and solution difficulty.
+### 📁 Evaluation Notebooks
+
+- 📘 [MazeMetrics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/MazeMetrics.ipynb):  
+  Computes general structural metrics (e.g., path length, branching factor) across all maze types.
+
+- 📘 [LoopMazeMetrics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/LoopMazeMetrics.ipynb):  
+  Focuses specifically on mazes with **controlled loops**, analyzing their impact on complexity.
+
+- 📘 [SolutionStatistics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/SolutionStatistics.ipynb):  
+  Evaluates performance of classical solvers (e.g., A*, BFS, DFS) on loop-free different maze structures.
+
+- 📘 [LoopSolutionStatistics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/LoopSolutionStatistics.ipynb):  
+  Evaluates performance of classical solvers (e.g., A*, BFS, DFS) on mazes with different loop structures.
+
+- 🤖 [DQNStatistics.ipynb](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Statistics/DQNStatistics.ipynb):  
+  Analyzes reinforcement learning performance using **Deep Q-Networks (DQN)** — reward progression, convergence patterns, and exploration efficiency.
