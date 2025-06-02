@@ -1,5 +1,5 @@
 📄 **Full Project Report:**  
-Access the complete project report **[here](#)**.  
+Access the complete project report **[here](https://github.com/lmfaraday/Maze-Generation-Algorithms-Using-Graph-Theory/blob/main/Project%20Report.pdf)**.  
 
 ---
 
